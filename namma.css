@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Square+Peg&display=swap');
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+
+    font-family: 'Manrope', sans-serif;
+    
+
+    
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:-5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+ .navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800px;
+    color:yellow !important;
+
+}
+#navbarSupportedContent a{
+    color:#ffff;
+    border-bottom:2px solid transparent;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid yellow;
+}
+#sinup{
+    background:yellow;
+    width:5rem;
+    border-radius:15px;
+}
+#home{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(pic4.jpg);
+     background-size:cover;
+    background-position:center;
+    flex-direction:column;
+}
+#home h1{
+    font-size:100px;
+    color:white;
+    letter-spacing:3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:0px 1px 0px #ccc,
+                0px
+}
+#home pre{
+    font-size:24px;
+    color:white;
+}
+#home .input-group{
+    width:40%;
+    height:45px;
+}
+.signin{
+    background:yellow !important;
+    color:black;
+    box-shadow:2px 4px 5px rgba(0,0,0,.3)
+}
+/***About**/
+#about{
+    background:linear-gradient(to right,#ea1d6f,#eb33);
+}
+#about h1{
+    font-weight:800px;
+    font-size:50px;
+    color:white;
+}
+#about p{
+    color:white;
+}
+#program{
+    background-color:#e5e5e5;
+}
+#program h1{
+    font-size:50px;
+    letter-spacing: 6px;
+    font-weight:800;
+
+}
+#program img{
+width:250px;
+height:300px;
+}
+.card{
+    width:250px;
+    height:300px;
+background:#e5e5e5 !important;
+border:none;
+box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+            inset 4pc 4px 10px white;
+border-radius:20px !important;
+justify-content:center;
+overflow:hidden;
+align-items:center;
+margin:20px 60px;  transition:.2s;
+}    
+.card:hover{
+    box-shadow:inset 5px 5px 10px rgba(0,0,0,.3),
+            inset -4pc -4px 10px white;
+            transition:.2s;
+
+}
